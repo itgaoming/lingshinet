@@ -1,0 +1,104 @@
+.goods1{
+    width: 100%;
+}
+.goods1 .content{
+    width: 100%;
+    overflow: hidden;
+    height:5.34rem;
+    display: flex;
+}
+.goods1 .content .left{
+    width: 3.18rem;
+    height:100%;
+    background: #fff;
+    margin-right:.1rem;
+}
+.goods1 .content .left a{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100%;
+    justify-content: center;
+}
+.goods1 .content .left a img{
+    display: block;
+    width: 100%;
+    height:3.12rem;
+}
+.goods1 .content a p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#999;
+    font-size: .24rem;
+    padding:0 .2rem;
+    text-align: center;
+    line-height: .6rem;
+}
+.goods1 .content a span{
+    font-size: .38rem;
+    color:#f0506e;
+    font-weight: 700;
+    line-height: .6rem;
+    text-align: center;
+}
+.goods1 .content .right{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+.goods1 .content .right .right_top{
+    width: 100%;
+    height:2.46rem;
+    background: #fff;
+    margin-bottom:.1rem;
+    
+}
+.goods1 .content .right .right_top a{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+.goods1 .content .right .right_top a img{
+    width: 1.92rem;
+    height:1.92rem;
+}
+.goods1 .content .right .right_top a div{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 2.1rem;
+}
+.goods1 .content .right .right_top a span{
+    color:#4bb3f7;
+}
+.goods1 .content .right ul{
+    flex:1;
+    display:flex;
+    justify-content: space-between;
+}
+.goods1 .content .right ul li{
+    width: 49%;
+    height:100%;
+    background: #fff;
+}
+.goods1 .content .right ul li a{
+    display: flex;
+    width: 100%;
+    height:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.goods1 .content .right ul li a img{
+    width: 1.56rem;
+    height:1.56rem;
+}
+.goods1 .content .right ul li a span{
+    color:#94c740;
+}
+.goods1 .content .right ul li a p{
+    width: 1.96rem;
+}

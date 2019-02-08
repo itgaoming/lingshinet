@@ -1,0 +1,46 @@
+.goods2{
+    width: 100%;
+}
+.goods2 .content{
+    width: 100%;
+    height:5.34rem;
+    display: flex;
+    justify-content: space-between;
+}
+.goods2 .content li{
+    width: 49%;
+    height:100%;
+    background: #fff;
+    padding:.26rem;
+}
+.goods2 .content li h5{
+    font-size:.4rem;
+    color:#999;
+}
+.goods2 .content li p{
+    font-size: .28rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: .6rem;
+    color:#999;
+}
+.time{
+    font-size:.28rem;
+    color:#888;
+    line-height: .4rem;
+}
+.time span{
+    text-align: center;
+    padding: 0 .09rem;
+    color: #fff;
+    display: inline-block;
+    margin: 0 .06em;
+    border-radius: 2px;
+    background: #333;
+}
+.goods2 .content li img{
+    width: 2.64rem;
+    height:2.64rem;
+    margin-top:.4rem;
+}

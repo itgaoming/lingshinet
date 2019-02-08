@@ -1,0 +1,16 @@
+.goodstitle{
+    width: 100%;
+    height:.62rem;
+    padding-right:.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.goodstitle h3{
+    font-size: .31rem;
+    color:#555;
+}
+.goodstitle a{
+    color:#777;
+    font-size: .24rem;
+}

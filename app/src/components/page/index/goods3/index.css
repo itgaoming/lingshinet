@@ -1,0 +1,45 @@
+.goods3{
+    width: 100%;
+}
+.goods3 .content{
+    width: 100%;
+    min-height:5.34rem;
+}
+.goods3 .content ul{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.goods3 .content ul li{
+    padding-top:.2rem;
+    width: 49%;
+    min-height:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    margin-bottom:.2rem;
+}
+.goods3 .content ul li img{
+    width: 2rem;
+    height:1.5rem;
+}
+.goods3 .content ul li p{
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding:0 .2rem;
+    width: 3rem;
+    font-size: .24rem;
+    color:#999;
+}
+.goods3 .content ul li span{
+    text-align: center;
+    color:#999;
+    font-weight: 700;
+    line-height: .6rem;
+}

@@ -1,0 +1,42 @@
+.category{
+    width: 100%;
+    height:2.4rem;
+    background: #fff;
+}
+.category ul{
+    width: 100%;
+    height:100%;
+    display: flex;
+    
+}
+.category ul li{
+    width:25% ;
+    height:100%;
+    font-size: .28rem;
+    
+}
+.category ul li a{
+    display: flex;
+    width: 100%;
+    height:100%;
+    flex-direction: column;
+    align-items: center;
+    color:#999;
+    justify-content: center;
+}
+.category ul li a i{
+    display: block;
+    width: 1.2rem;
+    height:1.2rem;
+    background: url(../../../../assets/images/icon.png) no-repeat 0 -.6rem;
+    background-size: 4.8rem;
+}
+.category ul li:nth-child(2) a i{
+    background-position: -1.36rem -.6rem;
+}
+.category ul li:nth-child(3) a i{
+    background-position:0 -1.95rem;
+}
+.category ul li:nth-child(4) a i{
+    background-position: -1.36rem -1.95rem;
+}

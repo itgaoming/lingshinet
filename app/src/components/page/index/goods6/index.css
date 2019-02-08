@@ -1,0 +1,68 @@
+.goods6{
+    width: 100%;
+}
+.goods6 .content{
+    width: 100%;
+}
+.goods6 .content .area{
+    width: 100%;
+    height:1.68rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:.1rem;
+}
+.goods6 .content .area li{
+    width: 2.36rem;
+    height:100%;
+    background: url(../../../../assets/images/import.jpg) 0 0 no-repeat;
+    background-size: 7.2rem 7.2rem;
+}
+.goods6 .content .area li:nth-child(2){
+    background-position: 0 -1.68rem;
+}
+.goods6 .content .area li:nth-child(3){
+    background-position: 0 -3.36rem;
+}
+.goods6 .content .nation{
+    background: #fff;
+    display: flex;
+    flex-flow: wrap;
+}
+.goods6 .content .nation li{
+    width: 25%;
+    height:2.88rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#555;
+    font-size: .28rem;
+    line-height: .76rem;
+}
+.goods6 .content .nation li span{
+    width: 1.56rem;
+    height:1.56rem;
+    background: url(../../../../assets/images/import.jpg) no-repeat -2.88rem 0;
+    background-size: 7.2rem 7.2rem;
+}
+.goods6 .content .nation li:nth-child(2) span{
+    background-position: -4.44rem 0;
+}
+.goods6 .content .nation li:nth-child(3) span{
+    background-position: -2.88rem -1.68rem;
+}
+.goods6 .content .nation li:nth-child(4) span{
+    background-position: -4.44rem -1.68rem;
+}
+.goods6 .content .nation li:nth-child(5) span{
+    background-position: -2.88rem -3.36rem;
+}
+.goods6 .content .nation li:nth-child(6) span{
+    background-position: -4.44rem -3.36rem;
+}
+.goods6 .content .nation li:nth-child(7) span{
+    background-position: -2.88rem -5.04rem;
+}
+.goods6 .content .nation li:nth-child(8) span{
+    background-position: -4.44rem -5.04rem;
+}

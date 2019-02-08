@@ -1,0 +1,87 @@
+.mine{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.loginHeader{
+    width: 100%;
+    height:1.2rem;
+    background: #f8f8f8;
+    border-bottom:1px solid #bfbfbf;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#333;
+    font-size:.32rem;
+}
+.fa-chevron-left{
+    position: absolute;
+    left:.4rem;
+    width: .4rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    color:#f0506e;
+}
+.loginHeader a{
+    display: block;
+    height:.96rem;
+    line-height: .96rem;
+    margin:.6rem;
+}
+.loginHeader .active{
+    border-bottom:2px solid #f0506e;
+    color:#f0506e;
+}
+.mine .content{
+    flex:1;
+}
+.login,.register{
+    width: 100%;
+    height:100%;
+}
+.mine p{
+    width: 100%;
+    height:1.32rem;
+    border-bottom:1px solid #e8e8e8;
+    position: relative;
+    line-height: 1.32rem;
+    font-size: .28rem;
+    padding-left:.2rem;
+}
+.mine p input{
+    border:none;
+    color:#666;
+    height:1.28rem;
+    line-height: 1.28rem;
+    text-indent: 1.11rem;
+    width: 100%;
+}
+.mine p i{
+    font-size: .48rem;
+    position: absolute;
+    top:.42rem;
+    left:.8rem;
+    width: .48rem !important;
+    text-align: center;
+}
+.mine .Btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:1.92rem;
+}
+.mine .Btn button{
+    width: 90%;
+    height:.96rem;
+    border:none;
+    background: #ff3861;
+    color:#fff;
+    text-align: center;
+    line-height: .96rem;
+    font-size: .40rem;
+    border-radius: .08rem;
+}

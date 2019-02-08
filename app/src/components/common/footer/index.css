@@ -1,0 +1,29 @@
+.footer{
+    position: absolute;
+    width: 100%;
+    height:1.2rem;
+    border-left:1px solid #acacac;
+    border-right:1px solid #acacac;
+    left:0;
+    bottom:0;
+    z-index:999;
+    background: #f8f8f8;
+    display: flex;
+}
+.footer a{
+    display: flex;
+    width: 25%;
+    height:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer a.active{
+    color:red;
+}
+.footer a i{
+    font-size: .50rem;
+}
+.footer a span{
+    font-size: .24rem;
+}
